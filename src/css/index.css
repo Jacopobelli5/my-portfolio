@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -11,6 +15,10 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  --main-bg: #0a192f;
+  --main-text: #ccd6f6;
+  --accent-blue: #64ffda;
 }
 
 * {
@@ -28,6 +36,8 @@ body {
   width: 100%;
   min-height: 100vh;
   position: relative;
+  background: var(--main-bg) !important;
+  color: var(--main-text) !important;
 }
 
 #root {
@@ -46,9 +56,21 @@ a:hover {
   color: #21D6D2;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+h1, h2, h3, h4, h5, h6, .fw-bold, .text-primary {
+  color: var(--accent-blue) !important;
+}
+
+.text-secondary, .lead, p, li, .card-text {
+  color: var(--main-text) !important;
+}
+
+.card {
+  background: #112240 !important;
+  border: none;
+}
+
+section {
+  background: transparent;
 }
 
 button {
@@ -82,3 +104,41 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.banner-sidebar {
+  background: var(--main-bg);
+  min-height: 100vh;
+  position: static;
+  z-index: 2;
+}
+
+@media (min-width: 768px) {
+  .banner-sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 33.3333%; /* col-md-4 */
+    height: 100vh;
+    border-right: 1px solid #112240;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  main {
+    margin-left: 33.3333%;
+    width: 66.6666%;
+  }
+}
+
+@media (min-width: 992px) {
+  .banner-sidebar {
+    width: 25%; /* col-lg-3 */
+  }
+  main {
+    margin-left: 25%;
+    width: 75%;
+  }
+}
+

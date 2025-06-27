@@ -21,7 +21,7 @@ export default function App() {
         >
           <Experience />
           <Works />
-         
+          <Contact />
         </main>
       </div>
     </div>

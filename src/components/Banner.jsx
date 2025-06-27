@@ -1,6 +1,5 @@
 import '../css/Banner.css';
 
-// You may need to install bootstrap-icons: npm install bootstrap-icons
 
 export default function Banner() {
   return (
@@ -9,7 +8,7 @@ export default function Banner() {
         <h1 className="display-3 fw-bold text-center mb-3">Jacopo Belli</h1>
         <h2 className="h3 text-center mb-4">Front End Engineer</h2>
         <p className="lead text-center mb-0">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Here is a description of me. To be completed
         </p>
       </section>
       <div className="banner-social-icons">
