@@ -1,0 +1,39 @@
+/* Custom styles for Banner component */
+
+.banner-social-icons {
+  position: fixed;
+  left: 2vw;
+  bottom: 3vh;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  z-index: 10;
+}
+
+.banner-social-icons a {
+  color: var(--accent-blue);
+  font-size: 2rem;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.banner-social-icons a:hover {
+  color: #fff;
+  transform: translateY(-4px) scale(1.1);
+}
+
+@media (max-width: 767.98px) {
+  .banner-social-icons {
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem 0 0 0;
+    left: 0;
+    bottom: 0;
+    gap: 1.5rem;
+  }
+  .container.d-flex {
+    min-height: 40vh !important;
+    padding-bottom: 0 !important;
+  }
+} 

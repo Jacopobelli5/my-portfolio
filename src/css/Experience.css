@@ -1,0 +1,10 @@
+/* Custom styles for Experience component */
+
+.experience-item {
+  background: transparent;
+  transition: background 0.2s, transform 0.2s;
+}
+.experience-item:hover {
+  background: #112240;
+  transform: translateY(-6px);
+} 
