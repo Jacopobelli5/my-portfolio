@@ -4,11 +4,11 @@ import '../css/Banner.css';
 export default function Banner() {
   return (
     <>
-      <section className="container d-flex flex-column align-items-center justify-content-center min-vh-75" style={{ minHeight: '75vh' }}>
+      <section className="container d-flex flex-column align-items-center justify-content-center min-vh-75">
         <h1 className="display-3 fw-bold text-center mb-3">Jacopo Belli</h1>
-        <h2 className="h3 text-center mb-4">Front End Engineer</h2>
+        <h2 className="heading-two text-center mb-4">Front End Engineer</h2>
         <p className="lead text-center mb-0">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos. Here is a description of me. To be completed
+        I build front ends that feel simple, load fast, and stay out of the way.
         </p>
       </section>
       <div className="banner-social-icons">

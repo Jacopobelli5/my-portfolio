@@ -1,10 +1,9 @@
-/* Custom styles for Experience component */
-
 .experience-item {
   background: transparent;
   transition: background 0.2s, transform 0.2s;
 }
 .experience-item:hover {
-  background: #112240;
+  background: var(--bg);
   transform: translateY(-6px);
-} 
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}

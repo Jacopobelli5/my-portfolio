@@ -10,13 +10,13 @@ export default function App() {
       <div className="row min-vh-100">
         {/* Left static banner/sidebar */}
         <aside
-          className="col-12 col-md-4 col-lg-3 d-flex flex-column justify-content-center align-items-start px-4 px-md-3 py-5 banner-sidebar"
+          className="col-12 col-md-4 col-lg-4 d-flex flex-column justify-content-center align-items-start px-4 px-md-3 banner-sidebar"
         >
           <Banner />
         </aside>
         {/* Right scrollable content */}
         <main
-          className="col-12 col-md-8 col-lg-9 offset-md-4 offset-lg-3 px-4 py-5"
+          className="col-12 col-md-8 col-lg-6 offset-md-4 offset-lg-5 px-4 py-5"
           style={{ minHeight: '100vh' }}
         >
           <Experience />

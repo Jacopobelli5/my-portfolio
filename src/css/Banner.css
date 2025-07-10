@@ -11,29 +11,37 @@
 }
 
 .banner-social-icons a {
-  color: var(--accent-blue);
+  color: var(--link);
   font-size: 2rem;
   transition: color 0.2s, transform 0.2s;
 }
 
 .banner-social-icons a:hover {
-  color: #fff;
+  color: var(--hover);
   transform: translateY(-4px) scale(1.1);
+}
+
+.banner-sidebar{
+  padding-bottom: 20vh;
 }
 
 @media (max-width: 767.98px) {
   .banner-social-icons {
     position: relative;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 1.5rem 0 0 0;
+    align-self: center;
+    margin: 0;
     left: 0;
-    bottom: 0;
     gap: 1.5rem;
   }
   .container.d-flex {
     min-height: 40vh !important;
     padding-bottom: 0 !important;
   }
+
+  .banner-sidebar{
+    background: transparent;
+    padding-bottom: 0;
+  }
+  
 } 
