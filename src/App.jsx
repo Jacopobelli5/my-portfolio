@@ -7,17 +7,16 @@ import './css/index.css';
 export default function App() {
   return (
     <div className="container-fluid">
-      <div className="row min-vh-100">
+      <div className="row min-vh-100 main-container">
         {/* Left static banner/sidebar */}
-        <aside
-          className="col-12 col-md-4 col-lg-4 d-flex flex-column justify-content-center align-items-start px-4 px-md-3 banner-sidebar"
+        <header
+          className="col-12 col-md-4 col-lg-4 d-flex flex-column justify-content-center px-4 px-md-3 banner-sidebar"
         >
           <Banner />
-        </aside>
+        </header>
         {/* Right scrollable content */}
         <main
-          className="col-12 col-md-8 col-lg-6 offset-md-4 offset-lg-5 px-4 py-5"
-          style={{ minHeight: '100vh' }}
+          className="col-12 col-md-7 col-lg-6 offset-md-5 offset-lg-4 px-4 py-5"
         >
           <Experience />
           <Works />

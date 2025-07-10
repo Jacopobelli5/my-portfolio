@@ -63,6 +63,11 @@ body {
   text-decoration: none;
 }
 
+.main-container{
+  justify-content: center;
+  margin: 0 30em;
+}
+
 .a-btn {
   display: inline-block;
   color: white;
@@ -116,14 +121,34 @@ button:hover{
     position: fixed;
     left: 0;
     top: 0;
-    width: 3;
     height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: flex-start;
     padding-top: 0;
     padding-bottom: 0;
+    margin-left: 0;
+    background: transparent;
+    margin-bottom: 5vh;
   }
+
+  .main-container{
+    padding: 0;
+    justify-content: center;
+  }
+  .banner-social-icons {
+    position: relative;
+    flex-direction: row;
+    align-self: center;
+    margin: 0;
+    left: 0;
+    gap: 1.5rem;
+  }
+  .container.d-flex {
+    min-height: 40vh !important;
+    padding-bottom: 0 !important;
+  }
+  
 }
 
 @media (min-width: 992px) {
@@ -131,12 +156,12 @@ button:hover{
     position: fixed;
     left: 0;
     top: 0;
-    width: 3;
     height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: flex-start;
     padding-top: 0;
     padding-bottom: 0;
+    margin-left: 5vw;
   }
 }

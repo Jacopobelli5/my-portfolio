@@ -4,10 +4,10 @@ import '../css/Banner.css';
 export default function Banner() {
   return (
     <>
-      <section className="container d-flex flex-column align-items-center justify-content-center min-vh-75">
-        <h1 className="display-3 fw-bold text-center mb-3">Jacopo Belli</h1>
-        <h2 className="heading-two text-center mb-4">Front End Engineer</h2>
-        <p className="lead text-center mb-0">
+      <section className="container d-flex flex-column align-items-start justify-content-center min-vh-75">
+        <h1 className="fw-bold  mb-3 main-title">Jacopo Belli</h1>
+        <h2 className="heading-two mb-4">Front End Engineer</h2>
+        <p className="lead mb-0 banner-text">
         I build front ends that feel simple, load fast, and stay out of the way.
         </p>
       </section>

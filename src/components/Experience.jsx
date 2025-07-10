@@ -13,7 +13,7 @@ const experiences = [
     company: "Freelance",
     location: "London",
     period: "2021 - 2023",
-    description: "Developed modern web applications and collaborated with cross-functional teams. Description to be completed"
+    description: ""
   },
 ];
 
