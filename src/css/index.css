@@ -14,18 +14,18 @@
   --main-text: #ccd6f6;
   --accent-blue: #64ffda;
  
-  --bg: #f8f3e9;
-  --surface: #fdfbf8;
-  --primary: #00796b;
-  --accent: #ffa94d;
-  --text: #222222;
-  --text-muted: #6e6e6e;
-  --border: #e3ddd1;
-  --link: #00796b;
-  --hover: #005f56;
-  --code-bg: #f4eee3;
-  --heading: #00796b;
-  --heading2: #5a7d77;
+  --bg: linear-gradient(180deg, #0d1b2a, #1b263b);
+  --surface: #212d45;
+  --primary: #fca311;
+  --accent: #ff5c5c;
+  --text: #e0e6ed;
+  --text-muted: #a3adc2;
+  --border: #2c3a57;
+  --link: #fca311;
+  --hover: #e48e0c;
+  --code-bg: #192538;
+  --heading: #fca311;
+  --heading2: #ffd580;
   
 }
 
@@ -51,7 +51,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: var(--bg);
+  background: var(--bg);
   color: var(--text);
   font-family: "Manrope", sans-serif;
   
@@ -131,29 +131,18 @@ button:hover{
     background: transparent;
     margin-bottom: 5vh;
   }
+ 
+
 
   .main-container{
     padding: 0;
     justify-content: center;
-  }
-  .banner-social-icons {
-    position: relative;
-    flex-direction: row;
-    align-self: center;
-    margin: 0;
-    left: 0;
-    gap: 1.5rem;
-  }
-  .container.d-flex {
-    min-height: 40vh !important;
-    padding-bottom: 0 !important;
   }
   
 }
 
 @media (min-width: 992px) {
   .banner-sidebar {
-    position: fixed;
     left: 0;
     top: 0;
     height: 100vh;

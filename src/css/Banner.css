@@ -34,3 +34,31 @@
   margin-left: 10vw;
 }
 
+@media (max-width: 767.98px) {
+  .banner-social-icons {
+    position: relative;
+    flex-direction: row;
+    align-self: center;
+    margin: 0;
+    left: 0;
+    gap: 1.5rem;
+  }
+  .container.d-flex {
+    min-height: 40vh !important;
+    padding-bottom: 0 !important;
+  }
+
+  .banner-sidebar{
+    background: transparent;
+    margin-bottom: 5vh;
+    margin-left: 0;
+    h1, h2, p {
+      align-self: center;
+    }
+    .banner-section{
+      padding-bottom: 10vh !important;
+    }
+  }
+ 
+  
+} 

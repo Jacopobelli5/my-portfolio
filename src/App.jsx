@@ -20,8 +20,8 @@ export default function App() {
         >
           <Experience />
           <Works />
-          <Contact />
         </main>
+        <Contact />
       </div>
     </div>
   );

@@ -4,7 +4,7 @@ import '../css/Banner.css';
 export default function Banner() {
   return (
     <>
-      <section className="container d-flex flex-column align-items-start justify-content-center min-vh-75">
+      <section className="container d-flex flex-column align-items-start justify-content-center py-5 min-vh-75 banner-section">
         <h1 className="fw-bold  mb-3 main-title">Jacopo Belli</h1>
         <h2 className="heading-two mb-4">Front End Engineer</h2>
         <p className="lead mb-0 banner-text">

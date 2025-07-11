@@ -32,7 +32,7 @@ export default function Works() {
                 <img src={workSvg} alt="Work preview" />
               </div>
               <div className="card-body d-flex flex-column">
-                <h5 className="fw-bold mb-2">{work.title}</h5>
+                <h5 className="fw-bold card-text mb-2">{work.title}</h5>
                 <p className="card-text mb-3">{work.description}</p>
                 <button className='align-self-start'><a href={work.link} className='a-btn'>View Project</a></button>
               </div>
