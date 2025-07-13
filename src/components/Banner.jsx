@@ -18,8 +18,8 @@ export default function Banner() {
         <a href="https://github.com/jacopobelli5" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
           <i className="bi bi-github"></i>
         </a>
-        <a href="https://instagram.com/ja_shepha" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-          <i className="bi bi-instagram"></i>
+        <a href="/Jacopo%20Belli%20Resume%202025.pdf" download="Jacopo Belli Resume 2025.pdf" aria-label="CV">
+          <i className="bi bi-download"></i>
         </a>
       </div>
     </>
