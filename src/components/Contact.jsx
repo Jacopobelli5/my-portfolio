@@ -6,7 +6,7 @@ export default function Contact() {
       <h2 className="fw-bold mb-4">Contact</h2>
       <p className="lead mb-2">
         Want to work together or have a question? <br />
-        <a href="mailto:jacopo@example.com" className="a-link">jacopo@example.com</a>
+        <a href="mailto:jacopo.b2016@gmail.com" className="a-link">jacopo.b2016@gmail.com</a>
       </p>
     </section>
   );

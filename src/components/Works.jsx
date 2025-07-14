@@ -5,25 +5,25 @@ import '../css/Works.css';
 const works = [
   {
     title: 'Movie App',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
+    description: 'A React app that fetches and displays popular movies using the TMDB API. Users can search for movies and save their favorites locally. Tech Stack: React (Hooks), React Router, JavaScript, CSS.',
     link: 'https://jacoposmovieapp.vercel.app',
   },
   {
     title: 'Game Project',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
+    description: 'A simple game project I built to practice using p5.js. It is a platform-style game designed to experiment with basic game mechanics, asset handling, and interactivity in JavaScript.',
     link: 'https://mygameproject-five.vercel.app/',
   },
   {
     title: 'Music Visualiser',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
+    description: 'A real-time audio visualiser that listens to a loaded track or your microphone, runs a fast Fourier transform on the sound, and renders a variety of dynamic patterns—waveforms, spectrum bars, concentric circles that pulse in sync with the music.',
     link: 'https://my-music-visualiser.vercel.app/',
   },
 ];
 
 export default function Works() {
   return (
-    <section className="container py-5 my-5">
-      <h2 className="fw-bold mb-4">Projects</h2>
+    <section className="section-container container py-5 my-5">
+      <h2 className="section-title fw-bold mb-4">Projects</h2>
       <div className="row g-4">
         {works.map((work, i) => (
           <div key={i} className="col-12 col-md-6 col-lg-6 d-flex">

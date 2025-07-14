@@ -1,3 +1,4 @@
+import { useEffect, useRef } from 'react';
 import Banner from './components/Banner';
 import Experience from './components/Experience';
 import Works from './components/Works';
@@ -5,8 +6,24 @@ import Contact from './components/Contact';
 import './css/index.css';
 
 export default function App() {
+  const glowRef = useRef(null);
+
+  useEffect(() => {
+    const handleMouse = e => {
+      const glow = glowRef.current;
+      if (!glow) return;
+      glow.style.left = e.clientX + 'px';
+      glow.style.top  = e.clientY + 'px';
+    };
+    document.addEventListener('mousemove', handleMouse);
+    return () => document.removeEventListener('mousemove', handleMouse);
+  }, []);
+
   return (
     <div className="container-fluid">
+      {/* glow layer */}
+      <div id="cursor-glow" ref={glowRef} />
+
       <div className="row min-vh-100 main-container">
         {/* Left static banner/sidebar */}
         <header
