@@ -57,7 +57,7 @@ body {
   background: var(--bg);
   color: var(--text);
   font-family: "Manrope", sans-serif;
-  
+  font-size: 1.10rem;
 }
 
 #cursor-glow {
@@ -110,7 +110,10 @@ h1, .small-title {
 .text-secondary, .lead, p, li, .card-text {
   color: var(--text) !important;
 }
-
+.lead {
+  font-size: 1.35rem;
+  font-weight: 400;
+}
 .card {
   background: var(--surface) !important;
   border: none;
@@ -196,4 +199,15 @@ button:hover{
     padding-bottom: 0;
     margin-left: 5vw;
   }
+}
+
+/* Firefox */
+::-moz-selection {
+  background: #ffcc00;
+  color: #000;
+}
+
+::selection {
+  background: #ffcc00;
+  color: #000;
 }

@@ -28,7 +28,7 @@ const works = [
 export default function Works() {
   return (
     <section className="section-container container py-5 my-5">
-      <h2 className="section-title fw-bold mb-4">Projects</h2>
+      <h2 className="section-title fw-bold mb-4">Things I Built</h2>
       <div className="row g-4">
         {works.map((work, i) => (
           <div key={i} className="col-12 col-md-12 col-lg-6 d-flex">

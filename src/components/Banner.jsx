@@ -8,7 +8,7 @@ export default function Banner() {
         <h1 className="fw-bold  mb-3 main-title">Jacopo Belli</h1>
         <h2 className="heading-two mb-4">Front End Engineer</h2>
         <p className="lead mb-0 banner-text">
-        I build front ends that feel simple, load fast, and stay out of the way.
+        Hailing from Italy, I turn pizza‑powered inspiration into web apps 🤌
         </p>
       </section>
       <div className="banner-social-icons">
