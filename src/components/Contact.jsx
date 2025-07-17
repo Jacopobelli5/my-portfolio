@@ -1,5 +1,3 @@
-import '../css/Contact.css';
-
 export default function Contact() {
   return (
     <section className="container py-5 my-5 text-center">
